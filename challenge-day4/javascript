@@ -1,0 +1,39 @@
+function moonOrbits(days) {
+      const orbitalPeriod = 27;
+      return (365/orbitalPeriod);
+   }
+   function circleArea(radius) {
+    let pi = 3.14;
+    return (pi * radius * 2);
+ }
+ 
+ function circlePerimeter(radius) {
+    let pi = 3.14;
+    return (2 * pi * radius);
+ }
+
+ function ageInDays(years) {
+    const days = 365;
+    return (years * days);
+ }
+ 
+ function ageInSeconds(years) {
+    const seconds = 365 * 24 * 60 * 60;
+    return (years * seconds);
+ }
+ function remainder(first parameter, second parameter) {
+    const dividend = first parameter;
+    const divisor = second parameter;
+    return (dividend % divisor);
+ }
+ function finalPoints(2-pointers scored, 3-pointers scored) {
+    return ((2-pointers scored *2) + (3-pointers scored *3));
+ }
+
+ const num1;
+const num2;
+if ((num1 + num2) < 100 ) {
+return true;
+} else {
+   return false;
+}
